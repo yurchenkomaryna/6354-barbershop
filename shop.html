@@ -34,26 +34,27 @@
         </ul>
       </div>
       <div class="left-column">
-        <h2>Производители</h2>
+        <form class="filters" action="index.html" method="post">
+        <legend>Производители</legend>
         <ul>
           <li>
-            <input type="checkbox" name="items" value="item-1" id="baxter-of-california" checked>
+            <input type="checkbox" name="item-1" id="baxter-of-california" checked>
             <label for="baxter-of-california">Baxter of california</label>
           </li>
           <li>
-            <input type="checkbox" name="items" value="item-2"  id="mr-natty">
+            <input type="checkbox" name="item-2"  id="mr-natty">
             <label for="mr-natty">Mr natty</label>
           </li>
           <li>
-            <input type="checkbox" name="items" value="item-3"  id="suavecito" checked>
+            <input type="checkbox" name="item-3"  id="suavecito" checked>
             <label for="suavecito">Suavecito</label>
           </li>
           <li>
-            <input type="checkbox" name="items" value="item-4"  id="main-goetz">
+            <input type="checkbox" name="item-4"  id="main-goetz">
             <label for="main-goetz">Main+goetz</label>
           </li>
           <li>
-            <input type="checkbox" name="items" value="item-5"  id="murray">
+            <input type="checkbox" name="item-5"  id="murray">
             <label for="murray">Murray's</label>
           </li>
           <li>
@@ -61,40 +62,40 @@
             <label for="american-crew">American crew</label>
           </li>
         </ul>
-        <form class="filters" action="index.html" method="post">
-          <h2>Группы товаров:</h2>
-          <ul>
-            <li>
-              <label>
-                <input type="radio" name="product-groups" value="product-1" id="shaving-tools">
-                Бритвенные приднадлежности
-              </label>
-            </li>
-            <li>
-              <label for="product-2">
-                <input type="radio" name="product-groups" value="product-2" id="care-tools"checked>
-                Средства для ухода
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="radio" name="product-groups" value="product-3" id="accessories">
-                Аксессуары
-              </label>
-            </li>
-          </ul>
-            <input type="submit" name="name" value="Показать" >
-        </div>
+        <legend>Группы товаров:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="product-groups" value="product-1" id="shaving-tools">
+              Бритвенные приднадлежности
+            </label>
+          </li>
+          <li>
+            <label for="product-2">
+              <input type="radio" name="product-groups" value="product-2" id="care-tools"checked>
+              Средства для ухода
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="product-groups" value="product-3" id="accessories">
+              Аксессуары
+            </label>
+          </li>
+        </ul>
+          <button [type="submit"] >Показать</button>
+      </div>
         </form>
 
 
       <div class="right-column">
         <article class="product-item">
           <a href="#">
-            <img src="http://placehold.it/150x100" alt="first-item" />
+            <img src="http://placehold.it/150x100" alt="first-item" >
           </a>
           <a href="#">
-            <h1>Набор для путешествий<br> &laquoBAXTER OF CALIFORNIA&raquo</h1>
+            <span class="product-description">Набор для путешествий</span><br>
+            <span class="product-title"> &laquoBAXTER OF CALIFORNIA&raquo</span>
           </a>
 
         <div class="buy-block">
@@ -157,11 +158,11 @@
           <button type="button" name="button" class="buy">КУПИТЬ</button>
         </div>
         </article>
-        <ul>
-          <li><a href="#" class="page-1">1</a></li>
+        <ul class="pagination">
+          <li><a href="#">1</a></li>
           <li class="active">2</li>
-          <li><a href="#" class="page-3">3</a></li>
-          <li><a href="#" class="page-4">4</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
         </ul>
       </div>
     </main>
