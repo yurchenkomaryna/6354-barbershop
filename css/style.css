@@ -1,0 +1,15 @@
+body{
+  font-size: 14px;;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+}
+h1{
+  font-size: 30px;
+  font-family: RT Sans Narrow;
+  font-weight: bold;
+  color: #000000;
+  line-height: auto;
+}
+/*У меня только один заголовок типа h1*/
