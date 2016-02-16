@@ -3,13 +3,37 @@ body{
   line-height: 24px;
   color: #000000;
   font-weight: bold;
-  font-family: PT Sans Narrow;
+  font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+  margin: 0;
 }
 h1{
   font-size: 30px;
-  font-family: RT Sans Narrow;
+  font-family: 'PT Sans Narrow', 'Arial', sans-serif;
   font-weight: bold;
   color: #000000;
   line-height: auto;
+
+  /*временные стили*/
+  margin: 0;
 }
-/*У меня только один заголовок типа h1*/
+p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+}
+/*shop.html*/
+.main-header{
+  width: 1200px;
+  /*временные стили*/
+  background-color: lightgreen;
+  min-height: 72px;
+  margin: 0 auto;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+
+  /*временные стили*/
+}
